@@ -1,0 +1,117 @@
+/*FUENTES 
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #ddd;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.info {
+  background-color: rgb(100, 127, 179);
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 50;
+}
+
+.info {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.info {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.datos-per {
+  padding: 15px 175px 0 150px;
+  background: #fff;
+  padding: 10px 10vw;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  width: 600px;
+  text-align: justify;
+  align-self: center;
+}
+
+.list-exp {
+  background: #fff;
+  padding: 10px 10vw;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  width: 600px;
+  text-align: justify;
+  align-self: center;
+}
+
+.educa {
+  background: #fff;
+  padding: 10px 10vw;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  width: 600px;
+  text-align: justify;
+  align-self: center;
+}
+
+.habilidad {
+  background: #fff;
+  padding: 10px 10vw;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  width: 600px;
+  text-align: justify;
+  align-self: center;
+}
+
+.contacto {
+  background: #fff;
+  padding: 10px 10vw;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  width: 600px;
+  text-align: justify;
+  align-self: center;
+}
+
+.foto-persona {
+  display: flex;
+  float: right;
+  width: 160px;
+  height: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.datos1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.datos2 {
+  font-family: "Roboto", sans-serif;
+  padding: 15px 175px 0 150px;
+}
+
+.datos {
+  flex-basis: 50%;
+  padding: 15px 175px 0 150px;
+}
